@@ -1,0 +1,23 @@
+# Concepts learnt and applied in this project
+- **Enums (Enumerations):**
+    - User-defined data types that consist of a set of named integer constants.
+    - Used to make code more readable by replacing magic numbers with meaningful names.
+- **Classes & Objects:**
+    - **Class:** A blueprint or template for creating objects.
+    - **Object:** An instance of a class containing its own data and behaviour.
+    - **Methods:** Functions that belong to a class.
+    - **Attributes:** Variables that belong to a class.
+- **Constructors:**
+    - Special methods that are automatically called when an object is instantiated.
+    - Used primarily to initialize object attributes.
+    - They share the same name as the class and have no return type.
+- **Constructor Overloading:**
+    - Defining multiple constructors with the same name but different parameters.
+    - Allows flexibility in how objects are initialized.
+- **Encapsulation (Getters & Setters):**
+    - **Private Access Modifier:** Restricting direct access to class attributes to protect data integrity.
+    - **Getters (Accessors):** Public methods to read private attributes.
+    - **Setters (Mutators):** Public methods to modify private attributes, often including logic to validate the data.
+- **Inheritance:**
+    - A mechanism where a new class (Child/Derived) derives attributes and methods from an existing class (Parent/Base).
+    - Promotes code reusability.
